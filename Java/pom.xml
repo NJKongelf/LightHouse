@@ -5,9 +5,39 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>LightHouse</groupId>
-    <artifactId>LightHouse-API</artifactId>
+    <artifactId>LightHouse.API</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
+    <developers>
+        <developer>
+            <name>Luis Fidel Gutierrez</name>
+            <email>lfgn84@gmail.com</email>
+            <roles>
+                <role>developer</role>
+            </roles>
+        </developer>
+        <developer>
+            <name>Nicklas Johansson</name>
+            <email>Nicklas.c.Johansson@gmail.com</email>
+            <roles>
+                <role>developer</role>
+            </roles>
+        </developer>
+        <developer>
+            <name>Rauf Rajput</name>
+            <email>r.rajput@hotmail.com</email>
+            <roles>
+                <role>developer</role>
+            </roles>
+        </developer>
+        <developer>
+            <name>Elena Ten</name>
+            <email>xiztencia@gmail.com</email>
+            <roles>
+                <role>developer</role>
+            </roles>
+        </developer>
+    </developers>
     <dependencies>
         <dependency>
             <groupId>javax</groupId>
@@ -25,7 +55,7 @@
     </dependencies>
     <build>
         <sourceDirectory>./src/java</sourceDirectory>
-        <finalName>se.iths</finalName>
+        <finalName>LightHouse.API</finalName>
     </build>
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
